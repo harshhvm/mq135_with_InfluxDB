@@ -1,7 +1,6 @@
 var mqtt = require('mqtt');
 const fs = require('fs');
 var obj = { 'username': 'user', 'password': 'password' }
-//var client = mqtt.connect('mqtt://mayuresh.eraofiot.in:1883', obj);
 var client = mqtt.connect('mqtt://test.mosquitto.org:1883', obj);
 
 const Influx = require('influxdb-nodejs');
